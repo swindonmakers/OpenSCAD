@@ -2,11 +2,13 @@
 
 **Goal:** Understand how to integrate various vitamins and printed parts in a single model
 
-### Agenda
+### Agenda and Example Code
+
+Each agenda item is linked to the associated code example:
 
 * Review homework - use at least one as a group walkthrough / code review
 * Checking/solving for common problems - non-manifold, collisions, slices
-* Conditionals - If, ?
+* [Conditionals - If, ?](conditionals.scad)
 * Creating/using libraries - include, use - turn your homework vitamin into a library part
 * Structuring your project files - quick intro, detail is covered in wk3
 * Laying out vitamins - pre-cursor to designing printed parts around them
