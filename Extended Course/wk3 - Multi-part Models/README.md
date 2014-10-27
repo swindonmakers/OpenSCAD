@@ -27,12 +27,13 @@ Because OpenSCAD is primarily used for creating 3D-printable designs, we adopt t
 * Non-printable parts - Vitamins
 
 These different types of parts are also treated differently by the various automation tools, summarised in the following table:
-Automation Tool | STL  | Vitamin
---------------- | ---- | -------
-BOM Generator   | Placed in the printed parts list | Placed in the vitamins list
-Thumbnail view  | Placed in the /images dir | Place in the vitamins/views directory, one image per vitamin variant(type)
-STL Generator   | Placed in the /stl dir ready for printing | Placed in the vitamins/stl directory and used to accelerate on-screen rendering, one STL per vitamin sub-part per variant (type)
-AssemblyGuide   | Auto-linked to a 3D viewer | not linked
+
+| Automation Tool | STL  | Vitamin |
+| --------------- | ---- | ------- |
+| BOM Generator   | Placed in the printed parts list | Placed in the vitamins list |
+| Thumbnail view  | Placed in the /images dir | Place in the vitamins/views directory, one image per vitamin variant(type) |
+| STL Generator   | Placed in the /stl dir ready for printing | Placed in the vitamins/stl directory and used to accelerate on-screen rendering, one STL per vitamin sub-part per variant (type) |
+| AssemblyGuide   | Auto-linked to a 3D viewer | not linked |
 
 ## Project Structure
 
